@@ -1,0 +1,31 @@
+.sub__titulo {
+    color: #923ce892;
+    font-family: "Audiowide", sans-serif;
+    font-size: 15px;
+    position: absolute;
+    width: 30%;
+    left: 3%;
+    top: 85%;
+    text-shadow:
+    0 0 10px #fcfcfc,
+    0 0 10px #fcfcfc,
+    0 0 10px #fcfcfc;
+}
+
+@keyframes brilho5 {
+    to {
+        text-shadow: 
+        0 0 10px #fcfcfc,
+        0 0 10px #fcfcfc,
+        0 0 10px #fcfcfc;
+    }
+    me {
+        text-shadow: none;
+    }
+    
+}
+
+@font-face {
+    font-family: fonte1;
+    src: url(../../img/handel-gothic.otf);
+}

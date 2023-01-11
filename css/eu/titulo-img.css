@@ -1,0 +1,63 @@
+@font-face {
+    font-family: font1;
+    src: url(../../img/Madinah\ Authentic.otf);
+}
+
+
+.titulo__img {
+    animation: brilho2 2.0s infinite;
+    color: #fffefe5f;
+    font-family: font1;
+    position: absolute;
+    left: 2%;
+    top: 74%;
+    width: 100%;
+    text-shadow:
+    0 0 10px #d6d6d6,
+    0 0 10px #d6d6d6,
+    0 0 50px #4f4e4e;
+}
+
+.titulo__img {
+    font-size: 36px;
+    width: 40%;
+}
+
+@keyframes brilho {
+    to {
+        text-shadow: 
+        #36C4E7 0 0 15px,
+        #36C4E7 0 0 40px,
+        #36C4E7 0 0 60px,
+    }
+    from {
+        text-shadow: none;
+    }
+}
+
+@keyframes luz {
+    0%, 10%, 100% {
+        width: 0;
+    }
+    70%, 90% {
+        width: 50%;
+    }
+}
+
+@keyframes pisca {
+    0% {
+        color: #fbfbfbea;
+        text-shadow: none;
+    }
+    90%{
+        color: #fffffff6;
+        text-shadow: none;
+    }
+
+    100% {
+        color: #FF00FF;
+        text-shadow: 0 0 7px #ff00ff, 0 0 50PX #ff1493;
+
+    }
+    
+}

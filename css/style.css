@@ -1,0 +1,209 @@
+.body {
+    padding: 0;
+    margin: 0;
+    height: 100vh;
+}
+
+.footer {
+    background-color: black;
+    width: 14em;
+    color: aliceblue;
+    font-family: fonte2;
+    font-size: 30px;
+    position: absolute;
+    left: 35%;
+    top: 52em;
+}
+
+.email {
+    color: white;
+}
+
+
+
+.apresentacao {
+    margin: 0;
+    padding: 0;
+}
+.eu {
+    position: absolute;
+    left: 50%;
+    top: 75em;
+    transform: translate(-50%, -50%);
+}
+
+
+    .tituloo {
+        color: white;
+        position: absolute;
+        top: 90%;
+        left: 46px;
+        text-align: center;
+    }
+
+.nav-link {
+    
+    color: rgb(64, 166, 207);
+    font-family: fonte2;
+    font-size: 13px;
+    text-shadow: 
+    #494949 0 0 10px,
+    #f9f9f9 0 0 30px;
+    display: flex;
+    text-transform: uppercase;
+    text-align: right;
+}
+
+.navbar-custom{
+    background-color: transparent;
+    position: absolute;
+    top: 20px;
+}
+
+.fundo33{
+    position: absolute;
+    top: 1373px;
+    left: 0;
+    height: 100%;
+    width: 97em;
+ 
+}
+
+.ljava{
+    position: absolute;
+    top: -20px;
+    left: 36%;
+    width: 40%;
+}
+
+
+.ul li {
+    list-style: none;
+    padding: 0;
+    margin: 8px;
+}
+
+
+
+.gitext{
+    animation: imganimation 0.6s infinite;
+    margin: 0;
+    width: 32%;
+    position: absolute;
+    top: -5em;
+    left: 40%;
+}
+
+.gitlogo{
+    margin: 0;
+    width: 40%;
+    position: absolute;
+    left: 35%;
+    top: -1.8em;
+
+}
+
+.titulo1 {
+
+    color: white;
+    font-family: fonte;
+    font-size: 32px;
+    width: 100%;
+    margin: 0;
+    position: absolute;
+    top: 20%;
+    left: 10%;
+
+
+}
+
+/*     Animaçao Txt seguindo cada letra pra frente 
+
+    animation: typing1 4s steps(40) 1s infinite normal , 
+    Cursor1 1000ms steps(40) infinite normal ;
+    border-right: 2px solid #e66767;
+    white-space: nowrap;
+    overflow: hidden;
+
+/*/
+
+@font-face {
+    font-family: fonte;
+    src: url(../fonts/Resotelavender-L33Wn.ttf);
+}
+
+@keyframes Cursor1 {
+    from {
+        border-right-color: rgba(226, 108, 108, 0.75);
+        
+    }
+    to {
+        border-right-color: transparent;
+    }
+}
+
+@keyframes typing1 {
+    from{
+        width: 0;
+    }
+    to {
+        width: 14em;
+    }
+    
+}
+
+@keyframes brilho {
+    from {
+        text-shadow: 
+        #f9f9f9 0 0 10px,
+        #f9f9f9 0 0 30px,
+        #f9f9f9 0 0 50px;
+    }
+    to{
+        text-shadow: none;
+    }
+}
+
+@font-face {
+    font-family: fonte2;
+    src: url(../fonts/Event\ Horizon.ttf);
+}
+
+
+@keyframes imganimation {
+    from {
+        background-color: rgba(239, 238, 238, 0.285);
+    }
+    to {
+        background-color: none;
+    }
+  }
+  
+  /* The element to apply the animation to 
+  div {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    animation-name: example;
+    animation-duration: 4s;
+  }/*/
+
+
+/*  Fundo Gradient
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+
+background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+background-size: 400% 400%;
+animation: gradient 15s ease infinite;
+height: 100vh; /*

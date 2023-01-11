@@ -1,0 +1,71 @@
+.logo {
+    width: 7%;
+    position: absolute;
+    left: 47%;
+    top: 40%;
+    
+}
+
+
+
+.titulo {
+    animation: typing 4s steps(40) 1s infinite normal , 
+    Cursor 1000ms steps(40) infinite normal ;
+    border-right: 2px solid #e66767;
+    color: white;
+    font-family: fonte1;
+    font-size: 36px;
+    margin: 0;
+    position: absolute;
+    top: 60%;
+    left: 32%;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+
+
+
+.red {
+    color: #e27070;
+}
+
+.name {
+    
+    color: rgba(5, 5, 5, 0.611);
+    font-family: fonte3;
+    font-size: 15px;
+    text-shadow: 
+    #2d8cea 0 0 20px,
+    #2d8cea 0 0 10px,
+    #2d8cea 0 0 40px;
+    position: absolute;
+    top: 50em;
+    left: 45%;
+}
+
+
+@font-face {
+    font-family: fonte3;
+    src: url(./fonts/Madinah\ Authentic.otf);
+}
+
+@keyframes Cursor {
+    from {
+        border-right-color: rgba(226, 108, 108, 0.75);
+        
+    }
+    to {
+        border-right-color: transparent;
+    }
+}
+
+@keyframes typing {
+    from{
+        width: 0;
+    }
+    to {
+        width: 14em;
+    }
+    
+}
